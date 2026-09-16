@@ -218,6 +218,20 @@ pip install pandas numpy scikit-learn matplotlib jupyter
 ### 3. Open the notebook
 Open the project notebook using Jupyter Notebook or JupyterLab.
 
+## Usage
+
+The project can be run through the Jupyter Notebook.
+
+1. Open the `TextSense_AI.ipynb` notebook.
+2. Run the cells from top to bottom.
+3. The notebook loads and preprocesses the SMS dataset.
+4. The model is trained and evaluated.
+5. Use the `predict_message()` function to classify a new SMS message.
+
+Example:
+
+```python
+predict_message("Congratulations! You have won a free prize!")
 
 
 
