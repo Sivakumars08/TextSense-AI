@@ -233,6 +233,16 @@ Example:
 ```python
 predict_message("Congratulations! You have won a free prize!")
 
+## Future Improvements
+
+The current project focuses on SMS spam classification using traditional machine learning techniques. Future improvements could include:
+
+- Expanding the dataset with more recent SMS messages.
+- Improving text preprocessing for abbreviations, slang, and unusual spelling.
+- Exploring additional machine learning algorithms.
+- Testing more advanced NLP techniques.
+- Developing a simple user interface for real-time message classification.
+- Deploying the model as a web application or API.
 
 
 
