@@ -230,7 +230,6 @@ The project can be run through the Jupyter Notebook.
 
 Example:
 
-python
 predict_message("Congratulations! You have won a free prize!")
 
 ## Future Improvements
@@ -244,6 +243,9 @@ The current project focuses on SMS spam classification using traditional machine
 - Developing a simple user interface for real-time message classification.
 - Deploying the model as a web application or API.
 
+## Author
+
+Sivakumar S
 
 
 
