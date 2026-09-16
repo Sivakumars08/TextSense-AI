@@ -234,7 +234,7 @@ predict_message("Congratulations! You have won a free prize!")
 
 ## 📓 Notebook
 
-[View the complete TextSense AI notebook](notebook/TextSense_AI.ipynb)
+[View the complete TextSense AI notebook](Notebook/TextSense_AI.ipynb)
 
 ## Future Improvements
 
