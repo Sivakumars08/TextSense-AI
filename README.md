@@ -230,7 +230,7 @@ The project can be run through the Jupyter Notebook.
 
 Example:
 
-```python
+python
 predict_message("Congratulations! You have won a free prize!")
 
 ## Future Improvements
