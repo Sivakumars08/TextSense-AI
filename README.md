@@ -232,6 +232,10 @@ Example:
 
 predict_message("Congratulations! You have won a free prize!")
 
+## 📓 Notebook
+
+[View the complete TextSense AI notebook](notebook/TextSense_AI.ipynb)
+
 ## Future Improvements
 
 The current project focuses on SMS spam classification using traditional machine learning techniques. Future improvements could include:
