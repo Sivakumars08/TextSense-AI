@@ -197,24 +197,25 @@ All five test messages were correctly classified by the final model.
 
 ## Project Architecture
 
-The system follows this pipeline:
+The TextSense AI pipeline follows these steps:
 
-   text
+```text
 SMS Message
-     ↓
+    ↓
 Input Validation
-     ↓
+    ↓
 Text Cleaning
-     ↓
+    ↓
 TF-IDF Vectorization
-     ↓
-8,164 Numerical Features
-     ↓
+    ↓
 Logistic Regression
-     ↓
+    ↓
 HAM / SPAM Prediction
-     ↓
+    ↓
 Predicted Probability
+```
+
+The same fitted TF-IDF vectorizer is used to transform new messages before prediction.
 
 ## Installation
 
