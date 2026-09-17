@@ -127,33 +127,33 @@ The model was selected because it provides a strong balance between precision, r
 
 The final selected model is:
 
-- Model: Logistic Regression
-- TF-IDF Representation: Unigrams
-- Hyperparameter: C = 2.0
-- Decision Threshold: 0.50
+- **Model:** Logistic Regression
+- **TF-IDF Representation:** Unigrams
+- **Hyperparameter:** C = 2.0
+- **Decision Threshold:** 0.50
 
 The final model achieved the following results on the test set:
 
-Metric| Score
-Accuracy| 97.29%
-Precision| 99.05%
-Recall| 79.39%
-F1-Score| 88.14%
+| Metric | Score |
+|---|---:|
+| Accuracy | 97.29% |
+| Precision | 99.05% |
+| Recall | 79.39% |
+| F1-Score | 88.14% |
 
-The model produced 1 false positive and 27 false negatives on the test set.
+The model produced **1 false positive** and **27 false negatives** on the test set.
 
-## Confusion Matrix
+### Confusion Matrix
 
-| Predicted HAM| Predicted SPAM
-Actual HAM| 902| 1
-Actual SPAM| 27| 104
+| | Predicted HAM | Predicted SPAM |
+|---|---:|---:|
+| Actual HAM | 902 | 1 |
+| Actual SPAM | 27 | 104 |
 
-Confusion Matrix Values:
-
-- True Negatives (TN): 902
-- False Positives (FP): 1
-- False Negatives (FN): 27
-- True Positives (TP): 104
+- **True Negatives (TN):** 902
+- **False Positives (FP):** 1
+- **False Negatives (FN):** 27
+- **True Positives (TP):** 104
 
 ## Error Analysis
 
