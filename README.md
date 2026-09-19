@@ -25,7 +25,7 @@ TextSense AI addresses this problem by automatically classifying SMS messages as
 
 ## Dataset
 
-The project uses the SMS Spam Collection dataset, which contains labeled SMS messages classified as HAM or SPAM.
+The project uses the SMS Spam Collection dataset from Kaggle, which contains labeled SMS messages classified as HAM or SPAM.
 
 ### Dataset Statistics
 
@@ -221,14 +221,19 @@ The same fitted TF-IDF vectorizer is used to transform new messages before predi
 
 ### 1. Clone the repository
 
-bash
+```bash
 git clone https://github.com/Sivakumars08/TextSense-AI.git
 cd TextSense-AI
+```
 
 ### 2. Install the required libraries
+
+```bash
 pip install pandas numpy scikit-learn matplotlib jupyter
+```
 
 ### 3. Open the notebook
+
 Open the project notebook using Jupyter Notebook or JupyterLab.
 
 ## Usage
